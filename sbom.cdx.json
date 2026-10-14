@@ -1,0 +1,404 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "serialNumber": "urn:uuid:9d48bb53-3477-5e15-81bf-6e0be030f07d",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-06T09:57:27Z",
+  "component": {
+   "type": "application",
+   "name": "COOLPROP",
+   "version": "83b357604d34",
+   "bom-ref": "pkg:generic/anticloud/COOLPROP@83b357604d34",
+   "purl": "pkg:generic/anticloud/COOLPROP@83b357604d34",
+   "licenses": [
+    {
+     "license": {
+      "id": "MIT"
+     }
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "anticloud:source-commit",
+    "value": "REMOVED_CONTAMINATED_SHA_PENDING_API_RESOLVE"
+   },
+   {
+    "name": "anticloud:source-url",
+    "value": "https://github.com/the-anticloud/OPENMRS_CORE.git"
+   },
+   {
+    "name": "anticloud:tier",
+    "value": "tier-agent"
+   }
+  ]
+ },
+ "components": [
+  {
+   "type": "library",
+   "name": "Python",
+   "version": "unspecified",
+   "purl": "pkg:generic/Python",
+   "bom-ref": "native/Python@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "SWIG",
+   "version": "unspecified",
+   "purl": "pkg:generic/SWIG",
+   "bom-ref": "native/SWIG@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "Octave",
+   "version": "unspecified",
+   "purl": "pkg:generic/Octave",
+   "bom-ref": "native/Octave@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "Csharp",
+   "version": "unspecified",
+   "purl": "pkg:generic/Csharp",
+   "bom-ref": "native/Csharp@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "R",
+   "version": "unspecified",
+   "purl": "pkg:generic/R",
+   "bom-ref": "native/R@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "Java",
+   "version": "unspecified",
+   "purl": "pkg:generic/Java",
+   "bom-ref": "native/Java@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "JNI",
+   "version": "unspecified",
+   "purl": "pkg:generic/JNI",
+   "bom-ref": "native/JNI@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "Mathematica",
+   "version": "unspecified",
+   "purl": "pkg:generic/Mathematica",
+   "bom-ref": "native/Mathematica@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "numpy",
+   "version": ">=1.20",
+   "purl": "pkg:pypi/numpy@1.20",
+   "bom-ref": "pypi/numpy@>=1.20"
+  },
+  {
+   "type": "library",
+   "name": "name",
+   "version": "coolprop-rs",
+   "purl": "pkg:cargo/name@coolprop-rs",
+   "bom-ref": "cargo/name@coolprop-rs"
+  },
+  {
+   "type": "library",
+   "name": "version",
+   "version": "0.2.0",
+   "purl": "pkg:cargo/version@0.2.0",
+   "bom-ref": "cargo/version@0.2.0"
+  },
+  {
+   "type": "library",
+   "name": "license",
+   "version": "MIT",
+   "purl": "pkg:cargo/license@MIT",
+   "bom-ref": "cargo/license@MIT"
+  },
+  {
+   "type": "library",
+   "name": "readme",
+   "version": "README.md",
+   "purl": "pkg:cargo/readme@README.md",
+   "bom-ref": "cargo/readme@README.md"
+  },
+  {
+   "type": "library",
+   "name": "repository",
+   "version": "https://github.com/sgolle/coolprop-rs",
+   "purl": "pkg:cargo/repository@https://github.com/sgolle/coolprop-rs",
+   "bom-ref": "cargo/repository@https://github.com/sgolle/coolprop-rs"
+  },
+  {
+   "type": "library",
+   "name": "documentation",
+   "version": "https://github.com/sgolle/coolprop-rs",
+   "purl": "pkg:cargo/documentation@https://github.com/sgolle/coolprop-rs",
+   "bom-ref": "cargo/documentation@https://github.com/sgolle/coolprop-rs"
+  },
+  {
+   "type": "library",
+   "name": "homepage",
+   "version": "https://crates.io/crates/coolprop-rs",
+   "purl": "pkg:cargo/homepage@https://crates.io/crates/coolprop-rs",
+   "bom-ref": "cargo/homepage@https://crates.io/crates/coolprop-rs"
+  },
+  {
+   "type": "library",
+   "name": "edition",
+   "version": "2018",
+   "purl": "pkg:cargo/edition@2018",
+   "bom-ref": "cargo/edition@2018"
+  },
+  {
+   "type": "library",
+   "name": "bindgen",
+   "version": "0.55",
+   "purl": "pkg:cargo/bindgen@0.55",
+   "bom-ref": "cargo/bindgen@0.55"
+  },
+  {
+   "type": "library",
+   "name": "Cython",
+   "version": "unspecified",
+   "purl": "pkg:generic/Cython",
+   "bom-ref": "native/Cython@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "nanobind",
+   "version": "unspecified",
+   "purl": "pkg:generic/nanobind",
+   "bom-ref": "native/nanobind@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "@tauri-apps/api",
+   "version": "^2",
+   "purl": "pkg:npm/@tauri-apps/api@^2",
+   "bom-ref": "npm/@tauri-apps/api@^2"
+  },
+  {
+   "type": "library",
+   "name": "@tauri-apps/plugin-opener",
+   "version": "^2",
+   "purl": "pkg:npm/@tauri-apps/plugin-opener@^2",
+   "bom-ref": "npm/@tauri-apps/plugin-opener@^2"
+  },
+  {
+   "type": "library",
+   "name": "@tauri-apps/plugin-process",
+   "version": "^2",
+   "purl": "pkg:npm/@tauri-apps/plugin-process@^2",
+   "bom-ref": "npm/@tauri-apps/plugin-process@^2"
+  },
+  {
+   "type": "library",
+   "name": "@tauri-apps/plugin-updater",
+   "version": "^2",
+   "purl": "pkg:npm/@tauri-apps/plugin-updater@^2",
+   "bom-ref": "npm/@tauri-apps/plugin-updater@^2"
+  },
+  {
+   "type": "library",
+   "name": "plotly.js-dist-min",
+   "version": "^2",
+   "purl": "pkg:npm/plotly.js-dist-min@^2",
+   "bom-ref": "npm/plotly.js-dist-min@^2"
+  },
+  {
+   "type": "library",
+   "name": "react",
+   "version": "^18",
+   "purl": "pkg:npm/react@^18",
+   "bom-ref": "npm/react@^18"
+  },
+  {
+   "type": "library",
+   "name": "react-dom",
+   "version": "^18",
+   "purl": "pkg:npm/react-dom@^18",
+   "bom-ref": "npm/react-dom@^18"
+  },
+  {
+   "type": "library",
+   "name": "react-plotly.js",
+   "version": "^2",
+   "purl": "pkg:npm/react-plotly.js@^2",
+   "bom-ref": "npm/react-plotly.js@^2"
+  },
+  {
+   "type": "library",
+   "name": "@tauri-apps/cli",
+   "version": "^2",
+   "purl": "pkg:npm/@tauri-apps/cli@^2",
+   "bom-ref": "npm/@tauri-apps/cli@^2"
+  },
+  {
+   "type": "library",
+   "name": "@testing-library/jest-dom",
+   "version": "^6",
+   "purl": "pkg:npm/@testing-library/jest-dom@^6",
+   "bom-ref": "npm/@testing-library/jest-dom@^6"
+  },
+  {
+   "type": "library",
+   "name": "@testing-library/react",
+   "version": "^16",
+   "purl": "pkg:npm/@testing-library/react@^16",
+   "bom-ref": "npm/@testing-library/react@^16"
+  },
+  {
+   "type": "library",
+   "name": "@testing-library/user-event",
+   "version": "^14",
+   "purl": "pkg:npm/@testing-library/user-event@^14",
+   "bom-ref": "npm/@testing-library/user-event@^14"
+  },
+  {
+   "type": "library",
+   "name": "@types/react",
+   "version": "^18",
+   "purl": "pkg:npm/@types/react@^18",
+   "bom-ref": "npm/@types/react@^18"
+  },
+  {
+   "type": "library",
+   "name": "@types/react-dom",
+   "version": "^18",
+   "purl": "pkg:npm/@types/react-dom@^18",
+   "bom-ref": "npm/@types/react-dom@^18"
+  },
+  {
+   "type": "library",
+   "name": "@types/react-plotly.js",
+   "version": "^2",
+   "purl": "pkg:npm/@types/react-plotly.js@^2",
+   "bom-ref": "npm/@types/react-plotly.js@^2"
+  },
+  {
+   "type": "library",
+   "name": "@vitejs/plugin-react",
+   "version": "^6.0.1",
+   "purl": "pkg:npm/@vitejs/plugin-react@^6.0.1",
+   "bom-ref": "npm/@vitejs/plugin-react@^6.0.1"
+  },
+  {
+   "type": "library",
+   "name": "jsdom",
+   "version": "^25",
+   "purl": "pkg:npm/jsdom@^25",
+   "bom-ref": "npm/jsdom@^25"
+  },
+  {
+   "type": "library",
+   "name": "license-checker",
+   "version": "^25",
+   "purl": "pkg:npm/license-checker@^25",
+   "bom-ref": "npm/license-checker@^25"
+  },
+  {
+   "type": "library",
+   "name": "typescript",
+   "version": "^5",
+   "purl": "pkg:npm/typescript@^5",
+   "bom-ref": "npm/typescript@^5"
+  },
+  {
+   "type": "library",
+   "name": "vite",
+   "version": "^8.0.16",
+   "purl": "pkg:npm/vite@^8.0.16",
+   "bom-ref": "npm/vite@^8.0.16"
+  },
+  {
+   "type": "library",
+   "name": "vitest",
+   "version": "^4.1.11",
+   "purl": "pkg:npm/vitest@^4.1.11",
+   "bom-ref": "npm/vitest@^4.1.11"
+  },
+  {
+   "type": "library",
+   "name": "tauri-build",
+   "version": "2",
+   "purl": "pkg:cargo/tauri-build@2",
+   "bom-ref": "cargo/tauri-build@2"
+  },
+  {
+   "type": "library",
+   "name": "cmake",
+   "version": "0.1",
+   "purl": "pkg:cargo/cmake@0.1",
+   "bom-ref": "cargo/cmake@0.1"
+  },
+  {
+   "type": "library",
+   "name": "tauri",
+   "version": "2",
+   "purl": "pkg:cargo/tauri@2",
+   "bom-ref": "cargo/tauri@2"
+  },
+  {
+   "type": "library",
+   "name": "tauri-plugin-updater",
+   "version": "2",
+   "purl": "pkg:cargo/tauri-plugin-updater@2",
+   "bom-ref": "cargo/tauri-plugin-updater@2"
+  },
+  {
+   "type": "library",
+   "name": "tauri-plugin-process",
+   "version": "2",
+   "purl": "pkg:cargo/tauri-plugin-process@2",
+   "bom-ref": "cargo/tauri-plugin-process@2"
+  },
+  {
+   "type": "library",
+   "name": "tauri-plugin-opener",
+   "version": "2",
+   "purl": "pkg:cargo/tauri-plugin-opener@2",
+   "bom-ref": "cargo/tauri-plugin-opener@2"
+  },
+  {
+   "type": "library",
+   "name": "serde",
+   "version": "1",
+   "purl": "pkg:cargo/serde@1",
+   "bom-ref": "cargo/serde@1"
+  },
+  {
+   "type": "library",
+   "name": "serde_json",
+   "version": "1",
+   "purl": "pkg:cargo/serde_json@1",
+   "bom-ref": "cargo/serde_json@1"
+  },
+  {
+   "type": "library",
+   "name": "once_cell",
+   "version": "1",
+   "purl": "pkg:cargo/once_cell@1",
+   "bom-ref": "cargo/once_cell@1"
+  },
+  {
+   "type": "library",
+   "name": "CoolProp",
+   "version": "unspecified",
+   "purl": "pkg:generic/CoolProp",
+   "bom-ref": "native/CoolProp@unspecified"
+  }
+ ],
+ "source": {
+  "git": {
+   "head": null,
+   "url": null,
+   "sha_unverified": true,
+   "note": "contamination removed; resolve via GitHub API before quoting"
+  }
+ }
+}
