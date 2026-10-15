@@ -1,0 +1,1609 @@
+{
+  "schema": "anticloud.tier-bench/1",
+  "project": "COOLPROP",
+  "source": {
+    "repo_path": "E:\\fenta\\Downloads\\The Anticloud\\ANTICLOUD_REPOS\\CHEMICAL_PRODUCTION\\COOLPROP\\UPSTREAM_CLONE",
+    "git": {
+      "head": "",
+      "url": "https://github.com/the-anticloud/OPENMRS_CORE.git",
+      "branch": "master",
+      "committed_at": "2026-09-29T11:06:59+04:00"
+    }
+  },
+  "metrics": {
+    "files_total": 1808,
+    "source_files_scanned": 621,
+    "lines_of_code": 207176,
+    "languages": {
+      ".txt": 300,
+      ".json": 290,
+      ".py": 221,
+      ".h": 165,
+      ".cpp": 142,
+      ".sdf": 115,
+      ".rst": 82,
+      ".md": 68,
+      "(none)": 48,
+      ".ipynb": 34,
+      ".csv": 33,
+      ".sh": 22,
+      ".png": 17,
+      ".c": 16,
+      ".cs": 15
+    }
+  },
+  "licence": {
+    "spdx": "MIT",
+    "class": "A",
+    "source_file": "LICENSE",
+    "redistribution_allowed": true
+  },
+  "dependencies": {
+    "count": 67,
+    "unique": 51,
+    "by_ecosystem": {
+      "cargo": 22,
+      "native": 23,
+      "npm": 21,
+      "pypi": 1
+    },
+    "list": [
+      {
+        "ecosystem": "native",
+        "name": "Python",
+        "version": "",
+        "source_file": "CMakeLists.txt",
+        "raw": "find_package(Python"
+      },
+      {
+        "ecosystem": "native",
+        "name": "SWIG",
+        "version": "",
+        "source_file": "CMakeLists.txt",
+        "raw": "find_package(SWIG"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Octave",
+        "version": "",
+        "source_file": "CMakeLists.txt",
+        "raw": "find_package(Octave"
+      },
+      {
+        "ecosystem": "native",
+        "name": "SWIG",
+        "version": "",
+        "source_file": "CMakeLists.txt",
+        "raw": "find_package(SWIG"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Csharp",
+        "version": "",
+        "source_file": "CMakeLists.txt",
+        "raw": "find_package(Csharp"
+      },
+      {
+        "ecosystem": "native",
+        "name": "SWIG",
+        "version": "",
+        "source_file": "CMakeLists.txt",
+        "raw": "find_package(SWIG"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Csharp",
+        "version": "",
+        "source_file": "CMakeLists.txt",
+        "raw": "find_package(Csharp"
+      },
+      {
+        "ecosystem": "native",
+        "name": "SWIG",
+        "version": "",
+        "source_file": "CMakeLists.txt",
+        "raw": "find_package(SWIG"
+      },
+      {
+        "ecosystem": "native",
+        "name": "R",
+        "version": "",
+        "source_file": "CMakeLists.txt",
+        "raw": "find_package(R"
+      },
+      {
+        "ecosystem": "native",
+        "name": "SWIG",
+        "version": "",
+        "source_file": "CMakeLists.txt",
+        "raw": "find_package(SWIG"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Java",
+        "version": "",
+        "source_file": "CMakeLists.txt",
+        "raw": "find_package(Java"
+      },
+      {
+        "ecosystem": "native",
+        "name": "JNI",
+        "version": "",
+        "source_file": "CMakeLists.txt",
+        "raw": "find_package(JNI"
+      },
+      {
+        "ecosystem": "native",
+        "name": "SWIG",
+        "version": "",
+        "source_file": "CMakeLists.txt",
+        "raw": "find_package(SWIG"
+      },
+      {
+        "ecosystem": "native",
+        "name": "SWIG",
+        "version": "",
+        "source_file": "CMakeLists.txt",
+        "raw": "find_package(SWIG"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Mathematica",
+        "version": "",
+        "source_file": "CMakeLists.txt",
+        "raw": "find_package(Mathematica"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "numpy",
+        "version": ">=1.20",
+        "source_file": "pyproject.toml",
+        "raw": "numpy>=1.20"
+      },
+      {
+        "ecosystem": "cargo",
+        "name": "name",
+        "version": "coolprop-rs",
+        "source_file": "wrappers/Rust/Cargo.toml",
+        "raw": ""
+      },
+      {
+        "ecosystem": "cargo",
+        "name": "version",
+        "version": "0.2.0",
+        "source_file": "wrappers/Rust/Cargo.toml",
+        "raw": ""
+      },
+      {
+        "ecosystem": "cargo",
+        "name": "license",
+        "version": "MIT",
+        "source_file": "wrappers/Rust/Cargo.toml",
+        "raw": ""
+      },
+      {
+        "ecosystem": "cargo",
+        "name": "readme",
+        "version": "README.md",
+        "source_file": "wrappers/Rust/Cargo.toml",
+        "raw": ""
+      },
+      {
+        "ecosystem": "cargo",
+        "name": "repository",
+        "version": "https://github.com/sgolle/coolprop-rs",
+        "source_file": "wrappers/Rust/Cargo.toml",
+        "raw": ""
+      },
+      {
+        "ecosystem": "cargo",
+        "name": "documentation",
+        "version": "https://github.com/sgolle/coolprop-rs",
+        "source_file": "wrappers/Rust/Cargo.toml",
+        "raw": ""
+      },
+      {
+        "ecosystem": "cargo",
+        "name": "homepage",
+        "version": "https://crates.io/crates/coolprop-rs",
+        "source_file": "wrappers/Rust/Cargo.toml",
+        "raw": ""
+      },
+      {
+        "ecosystem": "cargo",
+        "name": "edition",
+        "version": "2018",
+        "source_file": "wrappers/Rust/Cargo.toml",
+        "raw": ""
+      },
+      {
+        "ecosystem": "cargo",
+        "name": "bindgen",
+        "version": "0.55",
+        "source_file": "wrappers/Rust/Cargo.toml",
+        "raw": ""
+      },
+      {
+        "ecosystem": "native",
+        "name": "Python",
+        "version": "",
+        "source_file": "wrappers/Python/CMakeLists.txt",
+        "raw": "find_package(Python"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Cython",
+        "version": "",
+        "source_file": "wrappers/Python/CMakeLists.txt",
+        "raw": "find_package(Cython"
+      },
+      {
+        "ecosystem": "native",
+        "name": "nanobind",
+        "version": "",
+        "source_file": "wrappers/Python/CMakeLists.txt",
+        "raw": "find_package(nanobind"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Python",
+        "version": "",
+        "source_file": "wrappers/Python/nanobind/CMakeLists.txt",
+        "raw": "find_package(Python"
+      },
+      {
+        "ecosystem": "native",
+        "name": "nanobind",
+        "version": "",
+        "source_file": "wrappers/Python/nanobind/CMakeLists.txt",
+        "raw": "find_package(nanobind"
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@tauri-apps/api",
+        "version": "^2",
+        "source_file": "wrappers/GUI/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@tauri-apps/plugin-opener",
+        "version": "^2",
+        "source_file": "wrappers/GUI/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@tauri-apps/plugin-process",
+        "version": "^2",
+        "source_file": "wrappers/GUI/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@tauri-apps/plugin-updater",
+        "version": "^2",
+        "source_file": "wrappers/GUI/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "plotly.js-dist-min",
+        "version": "^2",
+        "source_file": "wrappers/GUI/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "react",
+        "version": "^18",
+        "source_file": "wrappers/GUI/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "react-dom",
+        "version": "^18",
+        "source_file": "wrappers/GUI/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "react-plotly.js",
+        "version": "^2",
+        "source_file": "wrappers/GUI/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@tauri-apps/cli",
+        "version": "^2",
+        "source_file": "wrappers/GUI/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@testing-library/jest-dom",
+        "version": "^6",
+        "source_file": "wrappers/GUI/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@testing-library/react",
+        "version": "^16",
+        "source_file": "wrappers/GUI/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@testing-library/user-event",
+        "version": "^14",
+        "source_file": "wrappers/GUI/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@types/react",
+        "version": "^18",
+        "source_file": "wrappers/GUI/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@types/react-dom",
+        "version": "^18",
+        "source_file": "wrappers/GUI/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@types/react-plotly.js",
+        "version": "^2",
+        "source_file": "wrappers/GUI/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@vitejs/plugin-react",
+        "version": "^6.0.1",
+        "source_file": "wrappers/GUI/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "jsdom",
+        "version": "^25",
+        "source_file": "wrappers/GUI/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "license-checker",
+        "version": "^25",
+        "source_file": "wrappers/GUI/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "typescript",
+        "version": "^5",
+        "source_file": "wrappers/GUI/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "vite",
+        "version": "^8.0.16",
+        "source_file": "wrappers/GUI/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "vitest",
+        "version": "^4.1.11",
+        "source_file": "wrappers/GUI/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "cargo",
+        "name": "name",
+        "version": "coolprop-gui",
+        "source_file": "wrappers/GUI/src-tauri/Cargo.toml",
+        "raw": ""
+      },
+      {
+        "ecosystem": "cargo",
+        "name": "version",
+        "version": "8.0.0",
+        "source_file": "wrappers/GUI/src-tauri/Cargo.toml",
+        "raw": ""
+      },
+      {
+        "ecosystem": "cargo",
+        "name": "edition",
+        "version": "2021",
+        "source_file": "wrappers/GUI/src-tauri/Cargo.toml",
+        "raw": ""
+      },
+      {
+        "ecosystem": "cargo",
+        "name": "name",
+        "version": "coolprop_gui_lib",
+        "source_file": "wrappers/GUI/src-tauri/Cargo.toml",
+        "raw": ""
+      },
+      {
+        "ecosystem": "cargo",
+        "name": "tauri-build",
+        "version": "2",
+        "source_file": "wrappers/GUI/src-tauri/Cargo.toml",
+        "raw": ""
+      },
+      {
+        "ecosystem": "cargo",
+        "name": "cmake",
+        "version": "0.1",
+        "source_file": "wrappers/GUI/src-tauri/Cargo.toml",
+        "raw": ""
+      },
+      {
+        "ecosystem": "cargo",
+        "name": "tauri",
+        "version": "2",
+        "source_file": "wrappers/GUI/src-tauri/Cargo.toml",
+        "raw": ""
+      },
+      {
+        "ecosystem": "cargo",
+        "name": "tauri-plugin-updater",
+        "version": "2",
+        "source_file": "wrappers/GUI/src-tauri/Cargo.toml",
+        "raw": ""
+      },
+      {
+        "ecosystem": "cargo",
+        "name": "tauri-plugin-process",
+        "version": "2",
+        "source_file": "wrappers/GUI/src-tauri/Cargo.toml",
+        "raw": ""
+      },
+      {
+        "ecosystem": "cargo",
+        "name": "tauri-plugin-opener",
+        "version": "2",
+        "source_file": "wrappers/GUI/src-tauri/Cargo.toml",
+        "raw": ""
+      },
+      {
+        "ecosystem": "cargo",
+        "name": "serde",
+        "version": "1",
+        "source_file": "wrappers/GUI/src-tauri/Cargo.toml",
+        "raw": ""
+      },
+      {
+        "ecosystem": "cargo",
+        "name": "serde_json",
+        "version": "1",
+        "source_file": "wrappers/GUI/src-tauri/Cargo.toml",
+        "raw": ""
+      },
+      {
+        "ecosystem": "cargo",
+        "name": "once_cell",
+        "version": "1",
+        "source_file": "wrappers/GUI/src-tauri/Cargo.toml",
+        "raw": ""
+      },
+      {
+        "ecosystem": "native",
+        "name": "CoolProp",
+        "version": "",
+        "source_file": "dev/ci/cmake-consumer/CMakeLists.txt",
+        "raw": "find_package(CoolProp"
+      },
+      {
+        "ecosystem": "native",
+        "name": "CoolProp",
+        "version": "",
+        "source_file": "dev/ci/cmake-consumer/CMakeLists.txt",
+        "raw": "find_package(CoolProp"
+      },
+      {
+        "ecosystem": "native",
+        "name": "CoolProp",
+        "version": "",
+        "source_file": "dev/ci/cmake-consumer/CMakeLists.txt",
+        "raw": "find_package(CoolProp"
+      }
+    ]
+  },
+  "owasp_top10": {
+    "total_findings": 186,
+    "files_with_findings": 156,
+    "severity": {
+      "high": 60,
+      "medium": 9,
+      "low": 117
+    },
+    "categories": {
+      "A01-BrokenAccessControl": {
+        "count": 0,
+        "findings": []
+      },
+      "A02-CryptographicFailures": {
+        "count": 5,
+        "findings": [
+          {
+            "severity": "medium",
+            "file": "src/Tests/CoolProp-Tests-SBTLAdapter.cpp",
+            "line": 219,
+            "cwe": "CWE-338",
+            "snippet": "std::mt19937 rng(31);"
+          },
+          {
+            "severity": "medium",
+            "file": "src/Tests/CoolProp-Tests-SVDComponents.cpp",
+            "line": 43,
+            "cwe": "CWE-338",
+            "snippet": "std::mt19937 rng(1);"
+          },
+          {
+            "severity": "medium",
+            "file": "src/Tests/CoolProp-Tests-SVDSBTL.cpp",
+            "line": 1384,
+            "cwe": "CWE-338",
+            "snippet": "std::mt19937 rng(2026'05'23);"
+          },
+          {
+            "severity": "medium",
+            "file": "src/Tests/CoolProp-Tests-SVDSBTLFailMap.cpp",
+            "line": 119,
+            "cwe": "CWE-338",
+            "snippet": "std::mt19937_64 rng(0xC0DECAFE);"
+          },
+          {
+            "severity": "medium",
+            "file": "dev/svd_sbtl_e2e.cpp",
+            "line": 382,
+            "cwe": "CWE-338",
+            "snippet": "std::mt19937 rng(42);"
+          }
+        ]
+      },
+      "A03-Injection": {
+        "count": 63,
+        "findings": [
+          {
+            "severity": "high",
+            "file": "wrappers/Python/deprecated_setup.py",
+            "line": 82,
+            "cwe": "CWE-78",
+            "snippet": "cmd = subprocess.Popen(r'gcc --version | grep clang | grep -o -E \"(\\d+\\.)+\\d+\" | uniq | sort', shell=True, stdout=subprocess.PIPE)"
+          },
+          {
+            "severity": "high",
+            "file": "wrappers/Python/pytest/test_doc_examples.py",
+            "line": 147,
+            "cwe": "CWE-95",
+            "snippet": "exec(compile(code, rst_path, \"exec\"), ns)"
+          },
+          {
+            "severity": "high",
+            "file": "wrappers/Python/pytest/test_superancillary.py",
+            "line": 84,
+            "cwe": "CWE-95",
+            "snippet": "# solve_for_x inverts eval (f(2) -> x == 2)"
+          },
+          {
+            "severity": "high",
+            "file": "wrappers/Python/CoolProp/Plots/psy.py",
+            "line": 405,
+            "cwe": "CWE-502",
+            "snippet": "data = pickle.load(archivo)"
+          },
+          {
+            "severity": "medium",
+            "file": "wrappers/Python/CoolProp/Plots/PsychChart.py",
+            "line": 87,
+            "cwe": "CWE-89",
+            "snippet": "string = r'$\\phi$=' + '{s:0.0f}'.format(s=RH * 100) + '%'"
+          },
+          {
+            "severity": "medium",
+            "file": "wrappers/Python/CoolProp/Plots/PsychScript.py",
+            "line": 45,
+            "cwe": "CWE-89",
+            "snippet": "string = r'$\\phi$=' + '{s:0.0f}'.format(s=RH * 100) + '%'"
+          },
+          {
+            "severity": "high",
+            "file": "wrappers/Modelica/src/errorhandling.cpp",
+            "line": 31,
+            "cwe": "CWE-120",
+            "snippet": "strcat(warningMessage, \"\\n\");"
+          },
+          {
+            "severity": "high",
+            "file": "wrappers/Modelica/src/fluidpropsolver.cpp",
+            "line": 31,
+            "cwe": "CWE-120",
+            "snippet": "sprintf(error, \"FluidProp error: %s\\n\", ErrorMsg.c_str());"
+          },
+          {
+            "severity": "high",
+            "file": "wrappers/Modelica/src/solvermap.cpp",
+            "line": 47,
+            "cwe": "CWE-120",
+            "snippet": "sprintf(error, \"Error: libraryName = %s is not supported by any external solver\\n\", libraryName.c_str());"
+          },
+          {
+            "severity": "high",
+            "file": "Web/conf.py",
+            "line": 97,
+            "cwe": "CWE-78",
+            "snippet": "subprocess.check_output(cmd, shell=True, cwd=dirpath)"
+          },
+          {
+            "severity": "high",
+            "file": "Web/scripts/fluid_properties.phase_envelope.py",
+            "line": 3,
+            "cwe": "CWE-78",
+            "snippet": "subprocess.call('python methane-ethane.py', shell=True, stdout=sys.stdout, stderr=sys.stderr, cwd='../fluid_properties')"
+          },
+          {
+            "severity": "high",
+            "file": "Web/scripts/fluid_properties.REFPROPcomparison.py",
+            "line": 96,
+            "cwe": "CWE-78",
+            "snippet": "subprocess.check_call('python \"' + fluid + '.py\"', cwd=plots_path, stdout=sys.stdout, stderr=sys.stderr, shell=True)"
+          },
+          {
+            "severity": "high",
+            "file": "Web/scripts/fluid_properties.Superancillary.py",
+            "line": 206,
+            "cwe": "CWE-78",
+            "snippet": "subprocess.check_call('python -u \"' + fluid + '.py\"', cwd=plots_path, stdout=sys.stdout, stderr=sys.stderr, shell=True)"
+          },
+          {
+            "severity": "high",
+            "file": "Web/scripts/__init__.py",
+            "line": 59,
+            "cwe": "CWE-78",
+            "snippet": "subprocess.check_call('python -u {0}'.format(file_name), cwd=file_path, shell=True)"
+          },
+          {
+            "severity": "high",
+            "file": "src/HumidAirProp.cpp",
+            "line": 40,
+            "cwe": "CWE-120",
+            "snippet": "void strcpy(std::string& s, const std::string& e) {"
+          },
+          {
+            "severity": "high",
+            "file": "src/Tests/CoolProp-Tests-Expression.cpp",
+            "line": 638,
+            "cwe": "CWE-95",
+            "snippet": "sink += corr->eval(*HEOS);"
+          },
+          {
+            "severity": "high",
+            "file": "src/Tests/CoolProp-Tests-HS-prototypes.cpp",
+            "line": 101,
+            "cwe": "CWE-95",
+            "snippet": "eval(T0, rho0);"
+          },
+          {
+            "severity": "high",
+            "file": "src/Tests/CoolProp-Tests-SBTLAdapter.cpp",
+            "line": 44,
+            "cwe": "CWE-95",
+            "snippet": "REQUIRE(std::isnan(s.eval(::CoolProp::iDmass, 1e5, 300.0)));  // no regions \u2192 NaN"
+          },
+          {
+            "severity": "high",
+            "file": "src/Tests/CoolProp-Tests-SVDComponents.cpp",
+            "line": 167,
+            "cwe": "CWE-95",
+            "snippet": "REQUIRE(c.eval(2.7) == 3.14);"
+          },
+          {
+            "severity": "high",
+            "file": "src/Tests/CoolProp-Tests-TensorBSpline.cpp",
+            "line": 46,
+            "cwe": "CWE-95",
+            "snippet": "REQUIRE_THAT(sp.eval(x, y), Catch::Matchers::WithinAbs(1.0, 1e-14));"
+          },
+          {
+            "severity": "high",
+            "file": "src/SBTL/SaturationSurrogate.cpp",
+            "line": 203,
+            "cwe": "CWE-95",
+            "snippet": "return impl_->T_of_logp->eval(std::log(p));"
+          },
+          {
+            "severity": "high",
+            "file": "src/SBTL/SVDSurface.cpp",
+            "line": 134,
+            "cwe": "CWE-95",
+            "snippet": "double SVDSurface::eval(::CoolProp::parameters prop, double a, double b) const {"
+          },
+          {
+            "severity": "high",
+            "file": "src/SBTL/SVDSurfaceSerializer.cpp",
+            "line": 369,
+            "cwe": "CWE-95",
+            "snippet": "// curve's first eval() doesn't pay the lazy-build cost on"
+          },
+          {
+            "severity": "high",
+            "file": "src/Region/CubicSplineCurve.cpp",
+            "line": 256,
+            "cwe": "CWE-95",
+            "snippet": "// \u2014 the eventual eval() math will propagate NaN to the caller"
+          },
+          {
+            "severity": "high",
+            "file": "src/Region/PiecewiseChebyshevCurve.cpp",
+            "line": 320,
+            "cwe": "CWE-95",
+            "snippet": "// queries via the eventual NaN they get back from eval()."
+          }
+        ]
+      },
+      "A04-InsecureDesign": {
+        "count": 60,
+        "findings": [
+          {
+            "severity": "low",
+            "file": "wrappers/SMath/coolprop_wrapper/Unit.cs",
+            "line": 144,
+            "cwe": "CWE-",
+            "snippet": "// HACK: fix for SS-2414"
+          },
+          {
+            "severity": "low",
+            "file": "wrappers/SMath/coolprop_wrapper/Functions/CoolProp_HAProps.cs",
+            "line": 129,
+            "cwe": "CWE-",
+            "snippet": "var Result = CoolPropDLLfunc(Output, Name1, Prop1.obj.ToDouble(), Name2, Prop2.obj.ToDouble(), Name3, Prop3.obj.ToDouble());"
+          },
+          {
+            "severity": "low",
+            "file": "wrappers/SMath/coolprop_wrapper/Functions/CoolProp_Phase.cs",
+            "line": 95,
+            "cwe": "CWE-",
+            "snippet": "var Result = CoolPropDLLfunc(Name1, Prop1.obj.ToDouble(), Name2, Prop2.obj.ToDouble(), FluidName, phase, phase.Capacity);"
+          },
+          {
+            "severity": "low",
+            "file": "wrappers/SMath/coolprop_wrapper/Functions/CoolProp_Props.cs",
+            "line": 93,
+            "cwe": "CWE-",
+            "snippet": "var Result = CoolPropDLLfunc(Output, Name1, Prop1.obj.ToDouble(), Name2, Prop2.obj.ToDouble(), FluidName);"
+          },
+          {
+            "severity": "low",
+            "file": "wrappers/SMath/coolprop_wrapper/Functions/CoolProp_saturation_ancillary.cs",
+            "line": 82,
+            "cwe": "CWE-",
+            "snippet": "var Q           = (int)coolpropPlugin.GetNumberParam(value.Items[2], context).obj.ToDouble();"
+          },
+          {
+            "severity": "low",
+            "file": "wrappers/SMath/coolprop_wrapper/Functions/CoolProp_set_reference_stateD.cs",
+            "line": 86,
+            "cwe": "CWE-",
+            "snippet": "var Result = CoolPropDLLfunc(Ref, T.obj.ToDouble(), rho.obj.ToDouble(), h0.obj.ToDouble(), s0.obj.ToDouble());"
+          },
+          {
+            "severity": "low",
+            "file": "wrappers/Python/manylinux/00_prepare_docker.sh",
+            "line": 32,
+            "cwe": "CWE-",
+            "snippet": "# If docker-machine is available, chack if we have"
+          },
+          {
+            "severity": "low",
+            "file": "wrappers/Python/CoolProp/BibtexParser.py",
+            "line": 11,
+            "cwe": "CWE-",
+            "snippet": "# Here we are going to simply hack the formatting of the article class such that it preserves the"
+          },
+          {
+            "severity": "low",
+            "file": "wrappers/Python/CoolProp/Plots/Common.py",
+            "line": 415,
+            "cwe": "CWE-",
+            "snippet": "# TODO: REFPROP backend does not have ptriple."
+          },
+          {
+            "severity": "low",
+            "file": "wrappers/Python/CoolProp/Plots/SimpleCycles.py",
+            "line": 424,
+            "cwe": "CWE-",
+            "snippet": "# TODO"
+          },
+          {
+            "severity": "low",
+            "file": "wrappers/Python/CoolProp/Plots/Tests.py",
+            "line": 4,
+            "cwe": "CWE-",
+            "snippet": "from CoolProp.Plots import PropertyPlot  # TODO: Change to absolute import"
+          },
+          {
+            "severity": "low",
+            "file": "wrappers/Modelica/src/coolpropsolver.cpp",
+            "line": 193,
+            "cwe": "CWE-",
+            "snippet": "properties->ddph = 0.0;  // TODO: Fix this"
+          },
+          {
+            "severity": "low",
+            "file": "wrappers/EES/main.cpp",
+            "line": 175,
+            "cwe": "CWE-",
+            "snippet": "// TODO: check that the number of components agrees with the length of array"
+          },
+          {
+            "severity": "low",
+            "file": "Web/conf.py",
+            "line": 50,
+            "cwe": "CWE-",
+            "snippet": "# Some hacking to determine release or nightly build"
+          },
+          {
+            "severity": "low",
+            "file": "Web/scripts/fluid_properties.phase_envelope.py",
+            "line": 1,
+            "cwe": "CWE-",
+            "snippet": "# Hack due to hang in plot_directive for some unknown reason"
+          },
+          {
+            "severity": "low",
+            "file": "Web/scripts/logo_2014.py",
+            "line": 142,
+            "cwe": "CWE-",
+            "snippet": "# # Just a hack to resize the image"
+          },
+          {
+            "severity": "low",
+            "file": "src/AbstractState.cpp",
+            "line": 983,
+            "cwe": "CWE-",
+            "snippet": "// TODO: Cache the fug. coeff for each component"
+          },
+          {
+            "severity": "low",
+            "file": "src/CoolProp.cpp",
+            "line": 96,
+            "cwe": "CWE-",
+            "snippet": "//// This is very hacky, but pull the git revision from the file"
+          },
+          {
+            "severity": "low",
+            "file": "src/Helmholtz.cpp",
+            "line": 459,
+            "cwe": "CWE-",
+            "snippet": "// Here we want to hack this function just a tiny bit to avoid evaluation AT the critical point"
+          },
+          {
+            "severity": "low",
+            "file": "src/PolyMath.cpp",
+            "line": 295,
+            "cwe": "CWE-",
+            "snippet": "//return rootsVec[0]; // TODO: implement root selection algorithm"
+          },
+          {
+            "severity": "low",
+            "file": "src/SpeedTest.cpp",
+            "line": 9,
+            "cwe": "CWE-",
+            "snippet": "// A hack to make powerpc happy since sysClkRateGet not found"
+          },
+          {
+            "severity": "low",
+            "file": "src/Tests/CoolProp-Tests-HS-prototypes.cpp",
+            "line": 1648,
+            "cwe": "CWE-",
+            "snippet": "const double MELTING_SLOWDOWN_FACTOR = 200.0;  // TODO(CoolProp-vmp): tighten after first profile (measured ~95x on Water)"
+          },
+          {
+            "severity": "low",
+            "file": "src/Backends/Tabular/TabularBackends.cpp",
+            "line": 784,
+            "cwe": "CWE-",
+            "snippet": "// TODO: replace AS with a cloned instance of TTSE or BICUBIC, add \"clone()\" as mandatory function in base class"
+          },
+          {
+            "severity": "low",
+            "file": "src/Backends/REFPROP/REFPROPBackend.cpp",
+            "line": 42,
+            "cwe": "CWE-",
+            "snippet": "// TODO Auto-generated destructor stub"
+          },
+          {
+            "severity": "low",
+            "file": "src/Backends/REFPROP/REFPROPMixtureBackend.cpp",
+            "line": 1645,
+            "cwe": "CWE-",
+            "snippet": "}  // TODO: else if (ierr < 0) {set_warning(format(\"%s\",herr).c_str());}"
+          }
+        ]
+      },
+      "A05-SecurityMisconfiguration": {
+        "count": 1,
+        "findings": [
+          {
+            "severity": "medium",
+            "file": "dev/TTSE/TimeComp.py",
+            "line": 846,
+            "cwe": "CWE-489",
+            "snippet": "DEBUG = True"
+          }
+        ]
+      },
+      "A06-VulnerableComponents": {
+        "count": 0,
+        "findings": []
+      },
+      "A07-AuthFailures": {
+        "count": 0,
+        "findings": []
+      },
+      "A08-SoftwareDataIntegrity": {
+        "count": 56,
+        "findings": [
+          {
+            "severity": "low",
+            "file": "wrappers/Python/deprecated_setup.py",
+            "line": 350,
+            "cwe": "CWE-319",
+            "snippet": "'zip_safe': False  # no compressed egg; see http://stackoverflow.com/a/29124937/1360263"
+          },
+          {
+            "severity": "low",
+            "file": "wrappers/Python/manylinux/00_prepare_docker.sh",
+            "line": 48,
+            "cwe": "CWE-319",
+            "snippet": "# see http://stackoverflow.com/a/246128/1360263"
+          },
+          {
+            "severity": "low",
+            "file": "wrappers/Python/manylinux/01_build_wheels.sh",
+            "line": 7,
+            "cwe": "CWE-319",
+            "snippet": "# see http://stackoverflow.com/a/246128/1360263"
+          },
+          {
+            "severity": "low",
+            "file": "wrappers/Python/CoolProp/Plots/SimpleCycles.py",
+            "line": 385,
+            "cwe": "CWE-319",
+            "snippet": "# # See http://stackoverflow.com/questions/1061283/lt-instead-of-cmp"
+          },
+          {
+            "severity": "low",
+            "file": "wrappers/Modelica/src/documentation.h",
+            "line": 33,
+            "cwe": "CWE-319",
+            "snippet": "interface to the FluidProp tool (http://www.fluidprop.com). FluidProp features"
+          },
+          {
+            "severity": "low",
+            "file": "wrappers/Modelica/src/fluidpropsolver.h",
+            "line": 12,
+            "cwe": "CWE-319",
+            "snippet": "*  as a part of the FluidProp suite http://www.fluidprop.com"
+          },
+          {
+            "severity": "low",
+            "file": "Web/scripts/CPWeb/SphinxTools.py",
+            "line": 119,
+            "cwe": "CWE-319",
+            "snippet": "# See http://stackoverflow.com/questions/19751402/does-pybtex-support-accent-special-characters-in-bib-file/19754245#19754245"
+          },
+          {
+            "severity": "low",
+            "file": "src/Configuration.cpp",
+            "line": 68,
+            "cwe": "CWE-319",
+            "snippet": "* See http://stackoverflow.com/a/148610"
+          },
+          {
+            "severity": "low",
+            "file": "src/CoolProp.cpp",
+            "line": 184,
+            "cwe": "CWE-319",
+            "snippet": "// See also http://en.cppreference.com/w/cpp/locale/numpunct/decimal_point"
+          },
+          {
+            "severity": "low",
+            "file": "src/CPfilepaths.cpp",
+            "line": 56,
+            "cwe": "CWE-319",
+            "snippet": "// /// From http://stackoverflow.com/a/17827724/1360263"
+          },
+          {
+            "severity": "low",
+            "file": "src/nanobind_interface.cxx",
+            "line": 453,
+            "cwe": "CWE-319",
+            "snippet": "// See http://stackoverflow.com/a/148610 and http://stackoverflow.com/questions/147267/easy-way-to-use-variables-of-enum-types-as-string-in-c#202511"
+          },
+          {
+            "severity": "low",
+            "file": "src/PolyMath.cpp",
+            "line": 804,
+            "cwe": "CWE-319",
+            "snippet": "//http://rosettacode.org/wiki/Evaluate_binomial_coefficients#C.2B.2B"
+          },
+          {
+            "severity": "low",
+            "file": "src/Solvers.cpp",
+            "line": 150,
+            "cwe": "CWE-319",
+            "snippet": "http://en.wikipedia.org/wiki/Halley%27s_method"
+          },
+          {
+            "severity": "low",
+            "file": "src/Tests/CoolProp-Tests-FactoryOptions.cpp",
+            "line": 88,
+            "cwe": "CWE-319",
+            "snippet": "auto r = CoolProp::parse_factory_options(R\"(HEOS::Water?{\"meta\":{\"url\":\"http://x.com/path?id=1&q=2\"}})\");"
+          },
+          {
+            "severity": "low",
+            "file": "src/Tests/CoolProp-Tests-JSONHelpers.cpp",
+            "line": 66,
+            "cwe": "CWE-319",
+            "snippet": "\"$schema\": \"http://json-schema.org/draft-07/schema#\","
+          },
+          {
+            "severity": "low",
+            "file": "src/Tests/CoolProp-Tests-SchemaValidation.cpp",
+            "line": 19,
+            "cwe": "CWE-319",
+            "snippet": "\"$schema\": \"http://json-schema.org/draft-07/schema#\","
+          },
+          {
+            "severity": "low",
+            "file": "src/Backends/Tabular/BicubicBackend.cpp",
+            "line": 54,
+            "cwe": "CWE-319",
+            "snippet": "* See also http://en.wikipedia.org/wiki/Bilinear_interpolation#Nonlinear"
+          },
+          {
+            "severity": "low",
+            "file": "src/Backends/Tabular/BicubicBackend.h",
+            "line": 14,
+            "cwe": "CWE-319",
+            "snippet": "* the page on wikipedia: http://en.wikipedia.org/wiki/Bicubic_interpolation"
+          },
+          {
+            "severity": "low",
+            "file": "src/Backends/Tabular/TabularBackends.cpp",
+            "line": 15,
+            "cwe": "CWE-319",
+            "snippet": "/// The inverse of the A matrix for the bicubic interpolation (http://en.wikipedia.org/wiki/Bicubic_interpolation)"
+          },
+          {
+            "severity": "low",
+            "file": "src/Backends/Tabular/TabularBackends.h",
+            "line": 18,
+            "cwe": "CWE-319",
+            "snippet": "* See http://stackoverflow.com/a/148610"
+          },
+          {
+            "severity": "low",
+            "file": "src/Backends/Tabular/TTSEBackend.cpp",
+            "line": 13,
+            "cwe": "CWE-319",
+            "snippet": "* See also http://en.wikipedia.org/wiki/Bilinear_interpolation#Nonlinear"
+          },
+          {
+            "severity": "low",
+            "file": "src/Backends/REFPROP/REFPROPMixtureBackend.cpp",
+            "line": 311,
+            "cwe": "CWE-319",
+            "snippet": "<< \"If you already obtained a copy of REFPROP from http://www.nist.gov/srd/, \\n\""
+          },
+          {
+            "severity": "low",
+            "file": "src/Backends/PCSAFT/PCSAFTLibrary.cpp",
+            "line": 371,
+            "cwe": "CWE-319",
+            "snippet": "// Already there, see http://www.cplusplus.com/reference/map/map/insert/, so we are going to pop it and overwrite it"
+          },
+          {
+            "severity": "low",
+            "file": "src/Backends/Incompressible/IncompressibleLibrary.cpp",
+            "line": 16,
+            "cwe": "CWE-319",
+            "snippet": "// *  http://dx.doi.org/10.1016/j.ijrefrig.2005.10.007"
+          },
+          {
+            "severity": "low",
+            "file": "src/Backends/Incompressible/IncompressibleLibrary.h",
+            "line": 22,
+            "cwe": "CWE-319",
+            "snippet": "// *  http://dx.doi.org/10.1016/j.ijrefrig.2005.10.007"
+          }
+        ]
+      },
+      "A09-LoggingMonitoringFailures": {
+        "count": 1,
+        "findings": [
+          {
+            "severity": "low",
+            "file": "Web/scripts/logo_2014.py",
+            "line": 150,
+            "cwe": "CWE-390",
+            "snippet": "# except IOError:\n# \tprint \"Error resizing '%s'\" % tar_fil_long_large"
+          }
+        ]
+      },
+      "A10-SSRF": {
+        "count": 0,
+        "findings": []
+      }
+    }
+  },
+  "owasp_llm_top10": {
+    "total_findings": 1,
+    "files_with_findings": 1,
+    "severity": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "categories": {
+      "LLM01-PromptInjection": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM02-SensitiveInfoDisclosure": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM03-SupplyChain": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM04-DataPoisoning": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM05-ImproperOutputHandling": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM06-ExcessiveAgency": {
+        "count": 1,
+        "findings": [
+          {
+            "severity": "high",
+            "file": "dev/testpypi_delete.py",
+            "line": 121,
+            "cwe": "CWE-862",
+            "snippet": "self._form_has_confirm = False"
+          }
+        ]
+      },
+      "LLM07-SystemPromptLeak": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM08-VectorEmbeddingWeaknesses": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM09-Misinformation": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM10-UnboundedConsumption": {
+        "count": 0,
+        "findings": []
+      }
+    }
+  },
+  "sbom": {
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.5",
+    "serialNumber": "urn:uuid:9d48bb53-3477-5e15-81bf-6e0be030f07d",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2026-10-06T08:11:23Z",
+      "component": {
+        "type": "application",
+        "name": "COOLPROP",
+        "version": "83b357604d34",
+        "bom-ref": "pkg:generic/anticloud/COOLPROP@83b357604d34",
+        "purl": "pkg:generic/anticloud/COOLPROP@83b357604d34",
+        "licenses": [
+          {
+            "license": {
+              "id": "MIT"
+            }
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "anticloud:source-commit",
+          "value": ""
+        },
+        {
+          "name": "anticloud:source-url",
+          "value": "https://github.com/the-anticloud/OPENMRS_CORE.git"
+        },
+        {
+          "name": "anticloud:tier",
+          "value": "tier-agent"
+        }
+      ]
+    },
+    "components": [
+      {
+        "type": "library",
+        "name": "Python",
+        "version": "unspecified",
+        "purl": "pkg:generic/Python",
+        "bom-ref": "native/Python@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "SWIG",
+        "version": "unspecified",
+        "purl": "pkg:generic/SWIG",
+        "bom-ref": "native/SWIG@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "Octave",
+        "version": "unspecified",
+        "purl": "pkg:generic/Octave",
+        "bom-ref": "native/Octave@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "Csharp",
+        "version": "unspecified",
+        "purl": "pkg:generic/Csharp",
+        "bom-ref": "native/Csharp@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "R",
+        "version": "unspecified",
+        "purl": "pkg:generic/R",
+        "bom-ref": "native/R@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "Java",
+        "version": "unspecified",
+        "purl": "pkg:generic/Java",
+        "bom-ref": "native/Java@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "JNI",
+        "version": "unspecified",
+        "purl": "pkg:generic/JNI",
+        "bom-ref": "native/JNI@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "Mathematica",
+        "version": "unspecified",
+        "purl": "pkg:generic/Mathematica",
+        "bom-ref": "native/Mathematica@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "numpy",
+        "version": ">=1.20",
+        "purl": "pkg:pypi/numpy@1.20",
+        "bom-ref": "pypi/numpy@>=1.20"
+      },
+      {
+        "type": "library",
+        "name": "name",
+        "version": "coolprop-rs",
+        "purl": "pkg:cargo/name@coolprop-rs",
+        "bom-ref": "cargo/name@coolprop-rs"
+      },
+      {
+        "type": "library",
+        "name": "version",
+        "version": "0.2.0",
+        "purl": "pkg:cargo/version@0.2.0",
+        "bom-ref": "cargo/version@0.2.0"
+      },
+      {
+        "type": "library",
+        "name": "license",
+        "version": "MIT",
+        "purl": "pkg:cargo/license@MIT",
+        "bom-ref": "cargo/license@MIT"
+      },
+      {
+        "type": "library",
+        "name": "readme",
+        "version": "README.md",
+        "purl": "pkg:cargo/readme@README.md",
+        "bom-ref": "cargo/readme@README.md"
+      },
+      {
+        "type": "library",
+        "name": "repository",
+        "version": "https://github.com/sgolle/coolprop-rs",
+        "purl": "pkg:cargo/repository@https://github.com/sgolle/coolprop-rs",
+        "bom-ref": "cargo/repository@https://github.com/sgolle/coolprop-rs"
+      },
+      {
+        "type": "library",
+        "name": "documentation",
+        "version": "https://github.com/sgolle/coolprop-rs",
+        "purl": "pkg:cargo/documentation@https://github.com/sgolle/coolprop-rs",
+        "bom-ref": "cargo/documentation@https://github.com/sgolle/coolprop-rs"
+      },
+      {
+        "type": "library",
+        "name": "homepage",
+        "version": "https://crates.io/crates/coolprop-rs",
+        "purl": "pkg:cargo/homepage@https://crates.io/crates/coolprop-rs",
+        "bom-ref": "cargo/homepage@https://crates.io/crates/coolprop-rs"
+      },
+      {
+        "type": "library",
+        "name": "edition",
+        "version": "2018",
+        "purl": "pkg:cargo/edition@2018",
+        "bom-ref": "cargo/edition@2018"
+      },
+      {
+        "type": "library",
+        "name": "bindgen",
+        "version": "0.55",
+        "purl": "pkg:cargo/bindgen@0.55",
+        "bom-ref": "cargo/bindgen@0.55"
+      },
+      {
+        "type": "library",
+        "name": "Cython",
+        "version": "unspecified",
+        "purl": "pkg:generic/Cython",
+        "bom-ref": "native/Cython@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "nanobind",
+        "version": "unspecified",
+        "purl": "pkg:generic/nanobind",
+        "bom-ref": "native/nanobind@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "@tauri-apps/api",
+        "version": "^2",
+        "purl": "pkg:npm/@tauri-apps/api@^2",
+        "bom-ref": "npm/@tauri-apps/api@^2"
+      },
+      {
+        "type": "library",
+        "name": "@tauri-apps/plugin-opener",
+        "version": "^2",
+        "purl": "pkg:npm/@tauri-apps/plugin-opener@^2",
+        "bom-ref": "npm/@tauri-apps/plugin-opener@^2"
+      },
+      {
+        "type": "library",
+        "name": "@tauri-apps/plugin-process",
+        "version": "^2",
+        "purl": "pkg:npm/@tauri-apps/plugin-process@^2",
+        "bom-ref": "npm/@tauri-apps/plugin-process@^2"
+      },
+      {
+        "type": "library",
+        "name": "@tauri-apps/plugin-updater",
+        "version": "^2",
+        "purl": "pkg:npm/@tauri-apps/plugin-updater@^2",
+        "bom-ref": "npm/@tauri-apps/plugin-updater@^2"
+      },
+      {
+        "type": "library",
+        "name": "plotly.js-dist-min",
+        "version": "^2",
+        "purl": "pkg:npm/plotly.js-dist-min@^2",
+        "bom-ref": "npm/plotly.js-dist-min@^2"
+      },
+      {
+        "type": "library",
+        "name": "react",
+        "version": "^18",
+        "purl": "pkg:npm/react@^18",
+        "bom-ref": "npm/react@^18"
+      },
+      {
+        "type": "library",
+        "name": "react-dom",
+        "version": "^18",
+        "purl": "pkg:npm/react-dom@^18",
+        "bom-ref": "npm/react-dom@^18"
+      },
+      {
+        "type": "library",
+        "name": "react-plotly.js",
+        "version": "^2",
+        "purl": "pkg:npm/react-plotly.js@^2",
+        "bom-ref": "npm/react-plotly.js@^2"
+      },
+      {
+        "type": "library",
+        "name": "@tauri-apps/cli",
+        "version": "^2",
+        "purl": "pkg:npm/@tauri-apps/cli@^2",
+        "bom-ref": "npm/@tauri-apps/cli@^2"
+      },
+      {
+        "type": "library",
+        "name": "@testing-library/jest-dom",
+        "version": "^6",
+        "purl": "pkg:npm/@testing-library/jest-dom@^6",
+        "bom-ref": "npm/@testing-library/jest-dom@^6"
+      },
+      {
+        "type": "library",
+        "name": "@testing-library/react",
+        "version": "^16",
+        "purl": "pkg:npm/@testing-library/react@^16",
+        "bom-ref": "npm/@testing-library/react@^16"
+      },
+      {
+        "type": "library",
+        "name": "@testing-library/user-event",
+        "version": "^14",
+        "purl": "pkg:npm/@testing-library/user-event@^14",
+        "bom-ref": "npm/@testing-library/user-event@^14"
+      },
+      {
+        "type": "library",
+        "name": "@types/react",
+        "version": "^18",
+        "purl": "pkg:npm/@types/react@^18",
+        "bom-ref": "npm/@types/react@^18"
+      },
+      {
+        "type": "library",
+        "name": "@types/react-dom",
+        "version": "^18",
+        "purl": "pkg:npm/@types/react-dom@^18",
+        "bom-ref": "npm/@types/react-dom@^18"
+      },
+      {
+        "type": "library",
+        "name": "@types/react-plotly.js",
+        "version": "^2",
+        "purl": "pkg:npm/@types/react-plotly.js@^2",
+        "bom-ref": "npm/@types/react-plotly.js@^2"
+      },
+      {
+        "type": "library",
+        "name": "@vitejs/plugin-react",
+        "version": "^6.0.1",
+        "purl": "pkg:npm/@vitejs/plugin-react@^6.0.1",
+        "bom-ref": "npm/@vitejs/plugin-react@^6.0.1"
+      },
+      {
+        "type": "library",
+        "name": "jsdom",
+        "version": "^25",
+        "purl": "pkg:npm/jsdom@^25",
+        "bom-ref": "npm/jsdom@^25"
+      },
+      {
+        "type": "library",
+        "name": "license-checker",
+        "version": "^25",
+        "purl": "pkg:npm/license-checker@^25",
+        "bom-ref": "npm/license-checker@^25"
+      },
+      {
+        "type": "library",
+        "name": "typescript",
+        "version": "^5",
+        "purl": "pkg:npm/typescript@^5",
+        "bom-ref": "npm/typescript@^5"
+      },
+      {
+        "type": "library",
+        "name": "vite",
+        "version": "^8.0.16",
+        "purl": "pkg:npm/vite@^8.0.16",
+        "bom-ref": "npm/vite@^8.0.16"
+      },
+      {
+        "type": "library",
+        "name": "vitest",
+        "version": "^4.1.11",
+        "purl": "pkg:npm/vitest@^4.1.11",
+        "bom-ref": "npm/vitest@^4.1.11"
+      },
+      {
+        "type": "library",
+        "name": "tauri-build",
+        "version": "2",
+        "purl": "pkg:cargo/tauri-build@2",
+        "bom-ref": "cargo/tauri-build@2"
+      },
+      {
+        "type": "library",
+        "name": "cmake",
+        "version": "0.1",
+        "purl": "pkg:cargo/cmake@0.1",
+        "bom-ref": "cargo/cmake@0.1"
+      },
+      {
+        "type": "library",
+        "name": "tauri",
+        "version": "2",
+        "purl": "pkg:cargo/tauri@2",
+        "bom-ref": "cargo/tauri@2"
+      },
+      {
+        "type": "library",
+        "name": "tauri-plugin-updater",
+        "version": "2",
+        "purl": "pkg:cargo/tauri-plugin-updater@2",
+        "bom-ref": "cargo/tauri-plugin-updater@2"
+      },
+      {
+        "type": "library",
+        "name": "tauri-plugin-process",
+        "version": "2",
+        "purl": "pkg:cargo/tauri-plugin-process@2",
+        "bom-ref": "cargo/tauri-plugin-process@2"
+      },
+      {
+        "type": "library",
+        "name": "tauri-plugin-opener",
+        "version": "2",
+        "purl": "pkg:cargo/tauri-plugin-opener@2",
+        "bom-ref": "cargo/tauri-plugin-opener@2"
+      },
+      {
+        "type": "library",
+        "name": "serde",
+        "version": "1",
+        "purl": "pkg:cargo/serde@1",
+        "bom-ref": "cargo/serde@1"
+      },
+      {
+        "type": "library",
+        "name": "serde_json",
+        "version": "1",
+        "purl": "pkg:cargo/serde_json@1",
+        "bom-ref": "cargo/serde_json@1"
+      },
+      {
+        "type": "library",
+        "name": "once_cell",
+        "version": "1",
+        "purl": "pkg:cargo/once_cell@1",
+        "bom-ref": "cargo/once_cell@1"
+      },
+      {
+        "type": "library",
+        "name": "CoolProp",
+        "version": "unspecified",
+        "purl": "pkg:generic/CoolProp",
+        "bom-ref": "native/CoolProp@unspecified"
+      }
+    ]
+  },
+  "elapsed_seconds": 23.63
+}
